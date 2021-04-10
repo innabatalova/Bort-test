@@ -29,6 +29,11 @@ img {
   background-color: #D9760F;
 }
 
+.footer-container {
+  width: 1265px;
+  margin: 0 auto;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -427,6 +432,7 @@ template {
 .article-card {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .article__one {
@@ -468,5 +474,101 @@ template {
   font-weight: 300;
   font-size: 16px;
   line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.article__info-two {
+  order: -1;
+}
+
+.article__info-five {
+  order: -1;
+}
+
+.article__info-eight {
+  order: -1;
+}
+
+.article__two {
+  height: 535px;
+}
+
+.article__three {
+  height: 570px;
+}
+
+.article__four {
+  height: 360px;
+}
+
+.article__four-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.article__four-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.article__five {
+  height: 535px;
+}
+
+.article__six {
+  height: 600px;
+}
+
+.article__seven {
+  height: 225px;
+}
+
+.article__eight {
+  height: 635px;
+}
+
+.article__eight-link {
+  color: #D9760F;
+}
+
+.article__img-top {
+  margin-bottom: 20px;
+}
+
+.article__list {
+  padding: 0;
+  list-style: none;
+}
+
+.article__list-item {
+  margin-bottom: 17px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.article__list-item:before {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  vertical-align: middle;
+  border-radius: 50%;
+  background-color: #D9760F;
+  margin-right: 10px;
+}
+
+.article .subtitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: -10px;
 }
 /*# sourceMappingURL=style.css.map */
