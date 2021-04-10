@@ -30,7 +30,7 @@ img {
 }
 
 .footer-container {
-  width: 1265px;
+  width: 1250px;
   margin: 0 auto;
 }
 
@@ -454,6 +454,12 @@ template {
   margin-top: -4px;
 }
 
+.article__comment-eight {
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
 .article__info-title {
   font-family: Oswald;
   font-style: normal;
@@ -495,10 +501,12 @@ template {
 
 .article__three {
   height: 570px;
+  margin-bottom: 120px;
 }
 
 .article__four {
   height: 360px;
+  margin-bottom: 120px;
 }
 
 .article__four-left {
@@ -517,6 +525,7 @@ template {
 
 .article__six {
   height: 600px;
+  margin-bottom: 75px;
 }
 
 .article__seven {
@@ -529,6 +538,11 @@ template {
 
 .article__eight-link {
   color: #D9760F;
+}
+
+.article__nine {
+  height: 570px;
+  margin-bottom: 60px;
 }
 
 .article__img-top {
@@ -569,6 +583,5 @@ template {
   line-height: 26px;
   color: #000000;
   margin: 0;
-  margin-bottom: -10px;
 }
 /*# sourceMappingURL=style.css.map */
