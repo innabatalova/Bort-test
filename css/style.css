@@ -5,6 +5,7 @@
 img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 a:hover {
@@ -461,6 +462,10 @@ template {
 
 .article__comment-eight {
   margin-bottom: 10px;
+}
+
+.article__info {
+  overflow: hidden;
 }
 
 .article__info-title {
